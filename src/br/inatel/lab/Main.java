@@ -6,6 +6,8 @@ public class Main {
        Barco b = new Barco("Navio pesqueiro", "Azul");
        Carrinho c = new Carrinho("Ferrari", "Vermelho");
 
+       System.out.printf("Quantidade de brinquedos criados: %d\n", Brinquedo.getQtdBrinquedos());
+
        ColecaoBrinquedos colecao = new ColecaoBrinquedos();
        colecao.adicionarBrinquedos(a);
        colecao.adicionarBrinquedos(b);
